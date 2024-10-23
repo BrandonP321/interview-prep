@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 15rem;
+  height: 15rem;
+}
+
+.box {
+  width: 33.333%;
+  height: 33.333%;
+  cursor: pointer;
+}
+
+.box:nth-child(2),
+.box:nth-child(8) {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.box:nth-child(4),
+.box:nth-child(6) {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.box:nth-child(1) {
+}
+
+.box:nth-child(2) {
+}
+
+.box:nth-child(4) {
+}
+
+.box:nth-child(4) {
+}
+
+.box:nth-child(5) {
+  border: 2px solid black;
+}
+
+.box:nth-child(6) {
+}
+
+.box:nth-child(7) {
+}
+
+.box:nth-child(8) {
+}
+
+.box:nth-child(9) {
+}
+
+.box:hover {
+  background-color: gray;
+}
+
+.box.o,
+.box.x {
+  cursor: auto;
+}
+
+.box.x {
+}
+
+.box.o {
+}
